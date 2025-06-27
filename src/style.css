@@ -1103,6 +1103,10 @@ h1,h2,h3{
   .secondary-nav-container{
     gap: 3.5rem;
   }
+  .nav{
+    width: 70%;
+    
+  }
 
 }
 @media (min-width:1200px) {
@@ -1131,6 +1135,10 @@ h1,h2,h3{
   }
   .grid-container{
     padding: 5.5rem 0;
+  }
+    .nav{
+    width: 65%;
+    
   }
   
 }

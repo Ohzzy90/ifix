@@ -797,15 +797,27 @@ h1,h2,h3{
   padding: 0.59rem 1rem;
   background: radial-gradient(ellipse at top , #aaa9a9, hsla(180, 100%, 25%, 1));
   border: none;
+  cursor: pointer;
 }
 .btn[data-type=inverted]{
   border: 2px solid var(--clr-secondary-100);
   background: none;
 }
+.btn[data-type=inverted]:hover{
+  color: var(--clr-secondary-400);
+  background: var(--clr-primary-200);
+}
 .btn[data-type=toggle-btn]{
   padding: var(--sz-300) var(--sz-400);
   border-radius: 0;
   background: none;
+
+}
+.nav__link:hover{
+  color: var(--clr-secondary-300);
+}
+.btn[data-type=toggle-btn]:active{
+  background: var(--clr-icon-200);
 
 }
 .btn[data-type=toggle-btn-close]{

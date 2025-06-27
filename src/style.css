@@ -927,9 +927,7 @@ h1,h2,h3{
 .flex-row{
   justify-content: space-between;
 }
-.txt-cen[data-type=inverted]{
-  text-align: left;
-}
+
 .learn-more-btn[data-type=inverted]{
   text-align: left;
 }
@@ -1067,7 +1065,9 @@ h1,h2,h3{
   footer{
     padding: 2.5rem 0;
   }
-  
+.txt-cen[data-type=inverted]{
+  text-align: left;
+}
 
 
 }

@@ -1140,7 +1140,7 @@ h1,h2,h3{
     padding: 0;
   }
   .large[data-type=inverted]{
-    width: 60%;
+    width: 50%;
   }
   .nav-panel{
     width: 95%;
